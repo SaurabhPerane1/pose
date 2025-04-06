@@ -5,7 +5,7 @@ import tensorflow as tf
 
 app = Flask(__name__)
 
-model = tf.keras.models.load_model("C:\\Users\\Lenovo\\Desktop\\ProjectFinalDraftClassification\\yoga_pose_classifier1.keras")
+model = tf.keras.models.load_model("yoga_pose_classifier1.keras")
 pose_classes = ['Downdog', 'Goddess', 'Plank', 'Tree', 'Warrior2']
 
 def preprocess_frame(frame):
